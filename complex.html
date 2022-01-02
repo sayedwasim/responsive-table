@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Complex Responsive Table in CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+<link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<table class="complex">
+	<thead>
+		<tr>
+      <th scope="col" colspan="2" rowspan="2">Popular</th>
+      <th scope="col" colspan="2" class="heading">Cash</th>
+      <th scope="col" colspan="2" class="heading">Cash</th>
+      <th scope="col" colspan="2" class="heading">TF/Transfers</th>
+    </tr>
+		<tr>
+      <th scope="col" colspan="2">Small Notes</th>
+      <th scope="col" colspan="2">Large Notes</th>
+      <th scope="col" colspan="2"></th>
+    </tr>
+		<tr>
+			<th scope="col">Code</th>
+			<th scope="col">Currency</th>
+			<th scope="col">Buy</th>
+			<th scope="col">Sell</th>
+			<th scope="col">Buy</th>
+			<th scope="col">Sell</th>
+			<th scope="col">Buy</th>
+			<th scope="col">Sell</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><span data-label="Code">USD</span></td>
+			<td><span data-label="Currency">US Dollar</span></td>
+			<td data-heading="Cash - Small Notes" class="has-heading"><span data-label="Buy">100.1</span></td>
+			<td><span data-label="Sell">100.1</span></td>
+			<td data-heading="Cash - Large Notes" class="has-heading"><span data-label="Buy">100.1</span></td>
+			<td><span data-label="Sell">100.1</span></td>
+			<td data-heading="TF/Transfers" class="has-heading"><span data-label="Buy">100.1</span></td>
+			<td><span data-label="Sell">100.1</span></td>
+		</tr>
+		<tr>
+			<td><span data-label="Code">GBP</span></td>
+			<td><span data-label="Currency">British Pounds</span></td>
+			<td data-heading="Cash - Small Notes" class="has-heading"><span data-label="Buy">100.1</span></td>
+			<td><span data-label="Sell">100.1</span></td>
+			<td data-heading="Cash - Large Notes" class="has-heading"><span data-label="Buy">100.1</span></td>
+			<td><span data-label="Sell">100.1</span></td>
+			<td data-heading="TF/Transfers" class="has-heading"><span data-label="Buy">100.1</span></td>
+			<td><span data-label="Sell">100.1</span></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
